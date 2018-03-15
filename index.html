@@ -29,42 +29,43 @@
   </header>
 
   <!-- Top Navigation Bar section -->
-  <nav class="navbar navbar-expand bg-white sticky-top">
-    <div class="navbar-brand mr-0 pr-0">
-      <img class="hide-logo" src="img/th-logo122x100.png" alt="Tharaa Elmorssi Portfolio Logo" id="nav-logo">
-    </div>
-    <ul class="navbar-nav">
-      <li class="nav-item text-center">
-        <div class="nav-link-div"><a class="nav-link" href="#"><span class="fa fa-home"></span><br>Home</a></div>
-      </li>
-      <li class="nav-item text-center">
-        <div class="nav-link-div"><a class="nav-link" href="#projects"><span class="fa fa-wrench"></span><br>Projects</a></div>
-      </li>
-      <li class="nav-item text-center">
-        <div class="nav-link-div"><a class="nav-link" href="#about"><span class="fa fa-quote-right"></span><br>About</a></div>
-      </li>
-      <li class="nav-item text-center">
-        <div class="nav-link-div"><a class="nav-link" href="#contact"><span class="fa fa-envelope"></span><br>Contact</a></div>
-      </li>
-    </ul>
-  </nav>
+  <div class="container-fluid sticky-top px-0">
+    <nav class="navbar navbar-expand bg-white ">
+      <div class="navbar-brand mr-0 pr-0">
+        <img class="nav-logo hide" src="img/th-logo122x100.png" alt="Tharaa Elmorssi Portfolio Logo" id="nav-logo">
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item text-center">
+          <div class="nav-link-div"><a class="nav-link" href="#"><span class="fa fa-home"></span><br>Home</a></div>
+        </li>
+        <li class="nav-item text-center">
+          <div class="nav-link-div"><a class="nav-link" href="#projects"><span class="fa fa-wrench"></span><br>Projects</a></div>
+        </li>
+        <li class="nav-item text-center">
+          <div class="nav-link-div"><a class="nav-link" href="#about"><span class="fa fa-quote-right"></span><br>About</a></div>
+        </li>
+        <li class="nav-item text-center">
+          <div class="nav-link-div"><a class="nav-link" href="#contact"><span class="fa fa-envelope"></span><br>Contact</a></div>
+        </li>
+      </ul>
+    </nav>
+    <div class="bottom-border hide" id="nav-border"></div>
+  </div>
 
   <!-- Home page sections -->
   <main>
     <!-- Home top image -->
-    <div class="container-fluid px-0">
-      <img
-        class="img-fluid" src="img/desktop-scene.jpg"
-        srcset="img/desktop-scene-650x348-crop.jpg 575w, img/desktop-scene-850x308.jpg 767w, img/desktop-scene-1200x423.jpg 991w, img/desktop-scene.jpg 1200w"
-        sizes="(max-width: 575px) 650px, (max-width: 767px) 850px, (max-width: 991px) 1200px, (max-width: 1200px) 1400px"
+    <div class="container-fluid px-0" id="home-image-container">
+      <img class="img-fluid" src="img/desktop-scene.jpg" srcset="img/desktop-scene-650x348-crop.jpg 575w, img/desktop-scene-850x308.jpg 767w, img/desktop-scene-1200x423.jpg 991w, img/desktop-scene.jpg 1200w" sizes="(max-width: 575px) 650px, (max-width: 767px) 850px, (max-width: 991px) 1200px, (max-width: 1200px) 1400px"
         alt="Tharaa Elmorssi Front-end developer desktop">
-      <div class="bottom-border"></div>
+      <div class="bottom-border" id="image-border"></div>
     </div>
 
     <!-- Featured Projects Section -->
     <section class="container-fluid main-section" id="projects">
       <div class="main-section-title blue-text">
-        <h3><span class="fa fa-wrench"></span>&nbsp;Featured Projects</h3></div>
+        <h3><span class="fa fa-wrench"></span>&nbsp;Featured Projects</h3>
+      </div>
 
       <!-- Animal Cards Project div -->
       <div class="container-fluid project-div">

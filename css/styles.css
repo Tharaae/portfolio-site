@@ -88,25 +88,28 @@ nav li {
   font-size:24px !important;
 }
 
-/* Classes used to show or hide logo in the Nav bar while scrolling */
-.hide-logo {
-  width: 0;
-}
-
-.show-logo {
+.nav-logo {
   height: 60px;
 }
 
-/* the line right under the home image */
+/* the line right under the home image and the navbar*/
 .bottom-border{
   width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   height:3px;
   background-color: #7d97ad;
 }
 
+/* Classes used to show or hide logo in the Nav bar and the bottom border line while scrolling */
+.hide {
+  height: 0;
+}
+
 /* General Formatting of content sections div */
 .main-section {
-  padding-top: 5em;
+  padding-top: 5.25em;
 }
 
 .main-section-title {
@@ -226,8 +229,8 @@ nav li {
 }
 
 @media screen and (max-width: 449px) {
-  .show-logo {
-      width: 0;
+  .nav-logo {
+      height: 0;
   }
 }
 
