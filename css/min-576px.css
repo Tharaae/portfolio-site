@@ -22,14 +22,7 @@ nav ul {
   margin-right: 0;
 }
 
-.main-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .project-div {
-  width: 50%;
   margin-bottom: 1em;
 }
 

@@ -62,134 +62,140 @@
     </div>
 
     <!-- Featured Projects Section -->
-    <section class="container-fluid main-section" id="projects">
-      <div class="main-section-title blue-text">
-        <h3><span class="fa fa-wrench"></span>&nbsp;Featured Projects</h3>
+    <section class="container main-section" id="projects">
+      <!-- Title Row in Projects Grid -->
+      <div class="row main-section-title blue-text">
+        <div class="col-12">
+          <h3><span class="fa fa-wrench"></span>&nbsp;Featured Projects</h3></div>
       </div>
-
-      <!-- Animal Cards Project div -->
-      <div class="container-fluid project-div">
-        <div class="image-overlay-container">
-          <img class="img-fluid rounded project-image" src="img/animal-cards-600x400.jpg" alt="Animal Cards Project">
-          <a href="#animal-cards-modal" data-toggle="modal" data-target="#animal-cards-modal">
-            <div class="rounded overlay">
-              <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
-            </div>
+      <!-- First Row in Projects Grid -->
+      <div class="row">
+        <!-- Animal Cards Project div -->
+        <div class="col-sm-6 project-div">
+          <div class="image-overlay-container">
+            <img class="img-fluid rounded project-image" src="img/animal-cards-600x400.jpg" alt="Animal Cards Project">
+            <a href="#animal-cards-modal" data-toggle="modal" data-target="#animal-cards-modal">
+              <div class="rounded overlay">
+                <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
+              </div>
+            </a>
+          </div>
+          <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/fend-animal-trading-cards-master/f563f79f/card.html" target="_blank">
+            <h5>Animal Cards</h5>
           </a>
+          <p>This project was to implement animal cards using only CSS to match the provided mockup. I decided to stick to the required design to "exactly" match the prototype.</p>
         </div>
-        <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/fend-animal-trading-cards-master/f563f79f/card.html" target="_blank">
-          <h5>Animal Cards</h5>
-        </a>
-        <p>This project was to implement animal cards using only CSS to match the provided mockup. I decided to stick to the required design to "exactly" match the prototype.</p>
-      </div>
-      <!-- Animal Cards Project Modal -->
-      <div class="modal fade" id="animal-cards-modal">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/fend-animal-trading-cards-master/f563f79f/card.html" target="_blank">
-                <h5>Animal Cards Project</h5>
-              </a>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <!-- Animal Cards Project Modal -->
+        <div class="modal fade" id="animal-cards-modal">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/fend-animal-trading-cards-master/f563f79f/card.html" target="_blank">
+                  <h5>Animal Cards Project</h5>
+                </a>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img class="img-fluid" src="img/animal-cards-screenshot1106x1372.jpg" alt="Animal Cards Project">
+              </div>
             </div>
-            <div class="modal-body">
-              <img class="img-fluid" src="img/animal-cards-screenshot1106x1372.jpg" alt="Animal Cards Project">
+          </div>
+        </div>
+
+        <!-- Pixel Art Maker Project div -->
+        <div class="col-sm-6 project-div">
+          <div class="image-overlay-container">
+            <img class="img-fluid rounded project-image" src="img/pixl-art-600x400.jpg" alt="Pixel Art Maker Project">
+            <a href="#pixel-art-modal" data-toggle="modal" data-target="#pixel-art-modal">
+              <div class="rounded overlay">
+                <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
+              </div>
+            </a>
+          </div>
+          <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/pixel-art-maker/f160caf9/index.html" target="_blank">
+            <h5>Pixel Art Maker</h5>
+          </a>
+          <p>This project was to develope the functions for a Pixel Art Maker using Javasript/JQuery. The user can draw or delete their art pixel by pixel or as continuous line.</p>
+        </div>
+        <!-- Pixel Art Maker Project Modal -->
+        <div class="modal fade" id="pixel-art-modal">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/pixel-art-maker/f160caf9/index.html" target="_blank">
+                  <h5>Pixel Art Maker Project</h5>
+                </a>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body pt-0 px-0">
+                <img class="img-fluid" src="img/pixel-art-screenshot1364x752.jpg" alt="Pixel Art Maker Project">
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <!-- Pixel Art Maker Project div -->
-      <div class="container-fluid project-div">
-        <div class="image-overlay-container">
-          <img class="img-fluid rounded project-image" src="img/pixl-art-600x400.jpg" alt="Pixel Art Maker Project">
-          <a href="#pixel-art-modal" data-toggle="modal" data-target="#pixel-art-modal">
-            <div class="rounded overlay">
-              <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
-            </div>
+      <!-- Second Row in Projects Grid -->
+      <div class="row">
+        <!-- Brighton Times Project div -->
+        <div class="col-sm-6 project-div">
+          <div class="image-overlay-container">
+            <img class="img-fluid rounded project-image" src="img/news-600x400.jpg" alt="Brighton Times Project">
+            <a href="#brighton-times-modal" data-toggle="modal" data-target="#brighton-times-modal">
+              <div class="rounded overlay">
+                <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
+              </div>
+            </a>
+          </div>
+          <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-brighton-times/333d15bf/index.html" target="_blank">
+            <h5>Brighton Times Updates</h5>
           </a>
+          <p>This project was to make the provided Brighton Times site responsive with all screen sizes. I used CSS files with different viewports and responsive images techniques.</p>
         </div>
-        <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/pixel-art-maker/f160caf9/index.html" target="_blank">
-          <h5>Pixel Art Maker</h5>
-        </a>
-        <p>This project was to develope the functions for a Pixel Art Maker using Javasript/JQuery. The user can draw or delete their art pixel by pixel or as continuous line.</p>
-      </div>
-      <!-- Pixel Art Maker Project Modal -->
-      <div class="modal fade" id="pixel-art-modal">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/pixel-art-maker/f160caf9/index.html" target="_blank">
-                <h5>Pixel Art Maker Project</h5>
-              </a>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body pt-0 px-0">
-              <img class="img-fluid" src="img/pixel-art-screenshot1364x752.jpg" alt="Pixel Art Maker Project">
+        <!-- Brighton Times Project Modal -->
+        <div class="modal fade" id="brighton-times-modal">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-brighton-times/333d15bf/index.html" target="_blank">
+                  <h5>Brighton Times Updates Project</h5>
+                </a>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img class="img-fluid" src="img/brighton-times-screenshot342x1274.jpg" alt="Brighton Times Project">
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Brighton Times Project div -->
-      <div class="container-fluid project-div">
-        <div class="image-overlay-container">
-          <img class="img-fluid rounded project-image" src="img/news-600x400.jpg" alt="Brighton Times Project">
-          <a href="#brighton-times-modal" data-toggle="modal" data-target="#brighton-times-modal">
-            <div class="rounded overlay">
-              <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
-            </div>
-          </a>
-        </div>
-        <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-brighton-times/333d15bf/index.html" target="_blank">
-          <h5>Brighton Times Updates</h5>
-        </a>
-        <p>This project was to make the provided Brighton Times site responsive with all screen sizes. I used CSS files with different viewports and responsive images techniques.</p>
-      </div>
-      <!-- Brighton Times Project Modal -->
-      <div class="modal fade" id="brighton-times-modal">
-        <div class="modal-dialog modal-sm">
-          <div class="modal-content">
-            <div class="modal-header">
-              <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-brighton-times/333d15bf/index.html" target="_blank">
-                <h5>Brighton Times Updates Project</h5>
-              </a>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-              <img class="img-fluid" src="img/brighton-times-screenshot342x1274.jpg" alt="Brighton Times Project">
-            </div>
+        <!-- Responsive Resume Project div -->
+        <div class="col-sm-6 project-div">
+          <div class="image-overlay-container">
+            <img class="img-fluid rounded project-image" src="img/resume-600x400.jpg" alt="Resume Resposive Site Project">
+            <a href="#resume-site-modal" data-toggle="modal" data-target="#resume-site-modal">
+              <div class="rounded overlay">
+                <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
+              </div>
+            </a>
           </div>
-        </div>
-      </div>
-
-      <!-- Responsive Resume Project div -->
-      <div class="container-fluid project-div">
-        <div class="image-overlay-container">
-          <img class="img-fluid rounded project-image" src="img/resume-600x400.jpg" alt="Resume Resposive Site Project">
-          <a href="#resume-site-modal" data-toggle="modal" data-target="#resume-site-modal">
-            <div class="rounded overlay">
-              <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
-            </div>
+          <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-resume-site/fd65bfc0/index.html" target="_blank">
+            <h5>Resume Site Updates</h5>
           </a>
+          <p>This project was to make the provided Resume site responsive with all screen sizes using CSS with different viewports, responsive images and responsive grid.</p>
         </div>
-        <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-resume-site/fd65bfc0/index.html" target="_blank">
-          <h5>Resume Site Updates</h5>
-        </a>
-        <p>This project was to make the provided Resume site responsive with all screen sizes using CSS with different viewports, responsive images and responsive grid.</p>
-      </div>
-      <!-- Resume Site Project Modal -->
-      <div class="modal fade" id="resume-site-modal">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-resume-site/fd65bfc0/index.html" target="_blank">
-                <h5>Resume Site Updates Project</h5>
-              </a>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-              <img class="img-fluid" src="img/resume-site-screenshot688x642.jpg" alt="Resume Site Updates Project">
+        <!-- Resume Site Project Modal -->
+        <div class="modal fade" id="resume-site-modal">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-resume-site/fd65bfc0/index.html" target="_blank">
+                  <h5>Resume Site Updates Project</h5>
+                </a>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <img class="img-fluid" src="img/resume-site-screenshot688x642.jpg" alt="Resume Site Updates Project">
+              </div>
             </div>
           </div>
         </div>
@@ -198,13 +204,18 @@
 
     <!-- About Me Section -->
     <section class="container-fluid main-section about-me-div" id="about">
-      <div class="main-section-title white-text">
-        <h3><span class="fa fa-quote-right"></span>&nbsp;About Me</h3>
+      <div class=" row main-section-title white-text">
+        <div class="col-12">
+          <h3><span class="fa fa-quote-right"></span>&nbsp;About Me</h3>
+        </div>
       </div>
-      <div class="subheader mb-5">
-        <h5>I'm a front-end developer who implements challenging designs and builds awesome websites.</h5>
+      <div class="row subheader mb-5">
+        <div class="col-12">
+          <h5>I'm a front-end developer who implements challenging designs and builds awesome websites.</h5>
+        </div>
       </div>
-      <div class="subsection">
+      <div class="row">
+      <div class="col-md-6 subsection">
         <h6>Qualifications:</h6>
         <ul>
           <li>B.S. degree in Computer Science</li>
@@ -213,7 +224,7 @@
           <li>Google-Udacity Front-end Web Developer Nanodegre (in progress)</li>
         </ul>
       </div>
-      <div class="subsection">
+      <div class="col-md-6 subsection">
         <h6>Technical Skills:</h6>
         <ul>
           <li>HTML / CSS</li>
@@ -224,19 +235,24 @@
           <li>Functional/Unit Testing and Debugging</li>
         </ul>
       </div>
+    </div>
     </section>
 
     <!-- Contact Me Section -->
     <section class="container-fluid main-section mb-3" id="contact">
-      <div class="main-section-title blue-text">
-        <h3><span class="fa fa-envelope"></span>&nbsp;Contact Me</h3>
+      <div class="row main-section-title blue-text">
+        <div class="col-12">
+          <h3><span class="fa fa-envelope"></span>&nbsp;Contact Me</h3>
+        </div>
       </div>
-      <div class="subsection">
+      <div class="row">
+      <div class="col-sm-6 subsection">
         <div class="subheader"><span class="fa fa-at"></span><strong>Email:</strong> tharaa@gmail.com</div>
       </div>
-      <div class="subsection">
+      <div class="col-sm-6 subsection">
         <div class="subheader"><span class="fa fa-phone-volume"></span><strong>Phone:</strong> (+61)1234567890</div>
       </div>
+    </div>
     </section>
   </main>
 
