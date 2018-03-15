@@ -1,0 +1,61 @@
+/* Responsive Formatting when the viewport width is greater than or equal 576px */
+.logo-div {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-left: 1em;
+}
+
+.header-titles {
+  display: inline-block;
+  height: 100px;
+  text-align: right;
+  margin-left: 1em;
+  padding-top: 1.25em;
+}
+
+.primary-title {
+  font-size: 42px;
+}
+
+nav ul {
+  margin-right: 0;
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-div {
+  width: 50%;
+  margin-bottom: 1em;
+}
+
+.image-overlay-container {
+  width: 100%;
+  max-width: 300px;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Responsive Formatting when the viewport width is greater than or equal 768px */
+@media screen and (min-width: 768px) {
+  nav li {
+    padding: 0 20px;
+  }
+
+  .subsection {
+    width: 50%;
+  }
+
+  .about-me-div {
+    padding-left: 6em;
+    padding-right: 6em;
+  }
+
+}

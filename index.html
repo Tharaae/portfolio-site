@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" href="img/th-icon.png">
+  <title>Tharaa's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" media="screen and (min-width: 576px)" href="css/min-576px.css">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <!-- Header - Logo and Title section -->
+  <header class="container-fluid pt-3 pb-1">
+    <div class="logo-div">
+      <img class="img-fluid h-100" src="img/th-logo244x200.png" alt="Tharaa Elmorssi Portfolio Logo">
+    </div>
+    <div class="header-titles">
+      <h1 class="display-4 primary-title">THARAA ELMORSSI</h1>
+      <h2 class="font-weight-light font-italic secondary-title">Bring Dream Designs to Reality</h2>
+    </div>
+  </header>
+
+  <!-- Top Navigation Bar section -->
+  <nav class="navbar navbar-expand bg-white sticky-top">
+    <div class="navbar-brand mr-0 pr-0">
+      <img class="hide-logo" src="img/th-logo122x100.png" alt="Tharaa Elmorssi Portfolio Logo" id="nav-logo">
+    </div>
+    <ul class="navbar-nav">
+      <li class="nav-item text-center">
+        <div class="nav-link-div"><a class="nav-link" href="#"><span class="fa fa-home"></span><br>Home</a></div>
+      </li>
+      <li class="nav-item text-center">
+        <div class="nav-link-div"><a class="nav-link" href="#projects"><span class="fa fa-wrench"></span><br>Projects</a></div>
+      </li>
+      <li class="nav-item text-center">
+        <div class="nav-link-div"><a class="nav-link" href="#about"><span class="fa fa-quote-right"></span><br>About</a></div>
+      </li>
+      <li class="nav-item text-center">
+        <div class="nav-link-div"><a class="nav-link" href="#contact"><span class="fa fa-envelope"></span><br>Contact</a></div>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Home page sections -->
+  <main>
+    <!-- Home top image -->
+    <div class="container-fluid px-0">
+      <img
+        class="img-fluid" src="img/desktop-scene.jpg"
+        srcset="img/desktop-scene-650x348-crop.jpg 575w, img/desktop-scene-850x308.jpg 767w, img/desktop-scene-1200x423.jpg 991w, img/desktop-scene.jpg 1200w"
+        sizes="(max-width: 575px) 650px, (max-width: 767px) 850px, (max-width: 991px) 1200px, (max-width: 1200px) 1400px"
+        alt="Tharaa Elmorssi Front-end developer desktop">
+      <div class="bottom-border"></div>
+    </div>
+
+    <!-- Featured Projects Section -->
+    <section class="container-fluid main-section" id="projects">
+      <div class="main-section-title blue-text">
+        <h3><span class="fa fa-wrench"></span>&nbsp;Featured Projects</h3></div>
+
+      <!-- Animal Cards Project div -->
+      <div class="container-fluid project-div">
+        <div class="image-overlay-container">
+          <img class="img-fluid rounded project-image" src="img/animal-cards-600x400.jpg" alt="Animal Cards Project">
+          <a href="#animal-cards-modal" data-toggle="modal" data-target="#animal-cards-modal">
+            <div class="rounded overlay">
+              <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
+            </div>
+          </a>
+        </div>
+        <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/fend-animal-trading-cards-master/f563f79f/card.html" target="_blank">
+          <h5>Animal Cards</h5>
+        </a>
+        <p>This project was to implement animal cards using only CSS to match the provided mockup. I decided to stick to the required design to "exactly" match the prototype.</p>
+      </div>
+      <!-- Animal Cards Project Modal -->
+      <div class="modal fade" id="animal-cards-modal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/fend-animal-trading-cards-master/f563f79f/card.html" target="_blank">
+                <h5>Animal Cards Project</h5>
+              </a>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid" src="img/animal-cards-screenshot1106x1372.jpg" alt="Animal Cards Project">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pixel Art Maker Project div -->
+      <div class="container-fluid project-div">
+        <div class="image-overlay-container">
+          <img class="img-fluid rounded project-image" src="img/pixl-art-600x400.jpg" alt="Pixel Art Maker Project">
+          <a href="#pixel-art-modal" data-toggle="modal" data-target="#pixel-art-modal">
+            <div class="rounded overlay">
+              <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
+            </div>
+          </a>
+        </div>
+        <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/pixel-art-maker/f160caf9/index.html" target="_blank">
+          <h5>Pixel Art Maker</h5>
+        </a>
+        <p>This project was to develope the functions for a Pixel Art Maker using Javasript/JQuery. The user can draw or delete their art pixel by pixel or as continuous line.</p>
+      </div>
+      <!-- Pixel Art Maker Project Modal -->
+      <div class="modal fade" id="pixel-art-modal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/pixel-art-maker/f160caf9/index.html" target="_blank">
+                <h5>Pixel Art Maker Project</h5>
+              </a>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body pt-0 px-0">
+              <img class="img-fluid" src="img/pixel-art-screenshot1364x752.jpg" alt="Pixel Art Maker Project">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Brighton Times Project div -->
+      <div class="container-fluid project-div">
+        <div class="image-overlay-container">
+          <img class="img-fluid rounded project-image" src="img/news-600x400.jpg" alt="Brighton Times Project">
+          <a href="#brighton-times-modal" data-toggle="modal" data-target="#brighton-times-modal">
+            <div class="rounded overlay">
+              <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
+            </div>
+          </a>
+        </div>
+        <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-brighton-times/333d15bf/index.html" target="_blank">
+          <h5>Brighton Times Updates</h5>
+        </a>
+        <p>This project was to make the provided Brighton Times site responsive with all screen sizes. I used CSS files with different viewports and responsive images techniques.</p>
+      </div>
+      <!-- Brighton Times Project Modal -->
+      <div class="modal fade" id="brighton-times-modal">
+        <div class="modal-dialog modal-sm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-brighton-times/333d15bf/index.html" target="_blank">
+                <h5>Brighton Times Updates Project</h5>
+              </a>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid" src="img/brighton-times-screenshot342x1274.jpg" alt="Brighton Times Project">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Responsive Resume Project div -->
+      <div class="container-fluid project-div">
+        <div class="image-overlay-container">
+          <img class="img-fluid rounded project-image" src="img/resume-600x400.jpg" alt="Resume Resposive Site Project">
+          <a href="#resume-site-modal" data-toggle="modal" data-target="#resume-site-modal">
+            <div class="rounded overlay">
+              <h5 class="white-text"><span class="fa fa-search-plus"></span>&nbsp;Screenshot</h5>
+            </div>
+          </a>
+        </div>
+        <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-resume-site/fd65bfc0/index.html" target="_blank">
+          <h5>Resume Site Updates</h5>
+        </a>
+        <p>This project was to make the provided Resume site responsive with all screen sizes using CSS with different viewports, responsive images and responsive grid.</p>
+      </div>
+      <!-- Resume Site Project Modal -->
+      <div class="modal fade" id="resume-site-modal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <a class="project-title-link" href="https://cdn.rawgit.com/Tharaae/responsive-resume-site/fd65bfc0/index.html" target="_blank">
+                <h5>Resume Site Updates Project</h5>
+              </a>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <img class="img-fluid" src="img/resume-site-screenshot688x642.jpg" alt="Resume Site Updates Project">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="container-fluid main-section about-me-div" id="about">
+      <div class="main-section-title white-text">
+        <h3><span class="fa fa-quote-right"></span>&nbsp;About Me</h3>
+      </div>
+      <div class="subheader mb-5">
+        <h5>I'm a front-end developer who implements challenging designs and builds awesome websites.</h5>
+      </div>
+      <div class="subsection">
+        <h6>Qualifications:</h6>
+        <ul>
+          <li>B.S. degree in Computer Science</li>
+          <li>Sun Certified Java Programmer</li>
+          <li>Sun Certified Web Components Developer</li>
+          <li>Google-Udacity Front-end Web Developer Nanodegre (in progress)</li>
+        </ul>
+      </div>
+      <div class="subsection">
+        <h6>Technical Skills:</h6>
+        <ul>
+          <li>HTML / CSS</li>
+          <li>Javasript / JQuery</li>
+          <li>Bootstrap 4</li>
+          <li>Responsive Design Techniques</li>
+          <li>Version Control - Git Hub / SourceSafe</li>
+          <li>Functional/Unit Testing and Debugging</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section class="container-fluid main-section mb-3" id="contact">
+      <div class="main-section-title blue-text">
+        <h3><span class="fa fa-envelope"></span>&nbsp;Contact Me</h3>
+      </div>
+      <div class="subsection">
+        <div class="subheader"><span class="fa fa-at"></span><strong>Email:</strong> tharaa@gmail.com</div>
+      </div>
+      <div class="subsection">
+        <div class="subheader"><span class="fa fa-phone-volume"></span><strong>Phone:</strong> (+61)1234567890</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="container-fluid site-footer">
+    <div class="social-div">
+      <a href="https://linkedin.com/in/tharaaelhosainy" target="_blank">
+        <img class="rounded h-100 mx-1" src="img/linkedin-icon.png" alt="LinkedIn Link">
+      </a>
+      <a href="https://github.com/Tharaae" target="_blank">
+        <img class="rounded h-100 mx-1" src="img/github-icon.png" alt="Git Hub Link">
+      </a>
+      <a href="https://www.facebook.com/" target="_blank">
+        <img class="rounded h-100 mx-1" src="img/facebook-icon.png" alt="Facebook Link">
+      </a>
+    </div>
+    <h6><small>&copy; 2018 THARAA ELMORSSI. All rights reserved.</small></h6>
+  </footer>
+</body>
+
+</html>

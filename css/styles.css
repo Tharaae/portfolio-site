@@ -1,0 +1,238 @@
+/* General Formatting */
+p {
+  color: #2d3c49;
+}
+
+header, nav, main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blue-text {
+  color: #02b3e4;
+}
+
+.white-text {
+  color: #fff;
+}
+
+/* Site Header Formatting */
+.logo-div {
+  display: inline-block;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+.header-titles {
+  text-align: center;
+}
+
+.primary-title{
+  font-size: 32px;
+  line-height: 1em;
+  color: #2d3c49;
+}
+
+.secondary-title {
+  font-size: 16px;
+  line-height: 1em;
+  color: #2d3c49;
+}
+
+/* Navigation Bar Formatting */
+nav ul {
+  margin:0 auto;
+}
+
+nav li {
+  padding: 0 10px;
+}
+
+.nav-link-div {
+  position: relative;
+}
+
+.nav-link {
+  color: #2d3c49;
+}
+
+.nav-link:hover {
+  color: #02b3e4;
+}
+
+/* Classes used to draw the small line under the menu item while hovering */
+.nav-link:hover:before {
+    opacity: 1;
+    width: 100%;
+}
+
+.nav-link:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1%;
+    height: 3px;
+    background-color: #02b3e4; /* the small line under the selected/hovered-on main menu item */
+    -webkit-transition: all 0.33s ease-out;
+    -moz-transition: all 0.33s ease-out;
+    -o-transition: all 0.33s ease-out;
+    -ms-transition: all 0.33s ease-out;
+    transition: all 0.33s ease-out;
+    opacity: 0;
+}
+
+.fa {
+  font-size:24px !important;
+}
+
+/* Classes used to show or hide logo in the Nav bar while scrolling */
+.hide-logo {
+  width: 0;
+}
+
+.show-logo {
+  height: 60px;
+}
+
+/* the line right under the home image */
+.bottom-border{
+  width: 100%;
+  height:3px;
+  background-color: #7d97ad;
+}
+
+/* General Formatting of content sections div */
+.main-section {
+  padding-top: 5em;
+}
+
+.main-section-title {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.subheader {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.subsection {
+  width: 90%;
+  max-width: 400px;
+  padding-bottom: 1em;
+}
+
+/* Formatting of Featured Projects section */
+.project-div {
+  text-align: center;
+  max-width: 400px;
+  margin-bottom: 3em;
+}
+
+.project-image {
+  width: 300px;
+  -webkit-box-shadow: 6px 7px 28px -5px rgba(125,151,173,1);
+  -moz-box-shadow: 6px 7px 28px -5px rgba(125,151,173,1);
+  box-shadow: 6px 7px 28px -5px rgba(125,151,173,1);
+}
+
+.image-overlay-container {
+  width: 300px;
+  position: relative;
+  margin: 20px auto;
+  align-self: center;
+}
+
+.image-overlay-container:hover .project-image {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.overlay {
+  position: absolute;
+  top: calc((100% - 40px)/2);
+  left: calc((100% - 150px)/2);
+  height: 40px;
+  width: 150px;
+  padding-top: 5px;
+  opacity: 0;
+  transition: .75s ease;
+  background-color: #02b3e4;
+}
+
+.image-overlay-container:hover .overlay {
+  opacity: 1;
+}
+
+.project-title-link {
+  color: #7d97ad;
+}
+
+.project-title-link:hover {
+  color: #2d3c49;
+}
+
+/* Formatting of About Me section */
+.about-me-div{
+  background-color: #02b3e4;
+  width: 100%;
+  padding-bottom: 3em;
+}
+
+/* Site Footer Formatting */
+.site-footer {
+  background-color: #2d3c49;
+  color: #fff;
+  height: 100px;
+}
+
+.social-div {
+  display:inline-block;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  margin: 10px auto 10px;
+}
+
+.social-div a:hover {
+  text-decoration: none;
+}
+
+.social-div a:hover img {
+  background-color: #02b3e4;
+}
+
+/* Responsive Formatting for different viewport sizes*/
+@media screen and (max-width: 359px) {
+  .image-overlay-container {
+    width: 250px;
+  }
+
+  .project-image {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  nav li {
+    padding: 0 5px;
+  }
+}
+
+@media screen and (max-width: 449px) {
+  .show-logo {
+      width: 0;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  nav ul {
+    margin-right: 0;
+  }
+}
