@@ -11,3 +11,7 @@ I was commited to the colours provided in the site mockup, but to the same desig
 I built up this site from scratch using HTML5, CSS, Bootstrap, JavaScript, JQuery, in addition to responsive images and responsive flexbox techniques.
 
 The minimum screen width this site is tested to is 320px.
+
+Updates after first review:
+---------------------------
+Bootstrap Grid used properly in the three content sections (Projects, About me, Contact me).
